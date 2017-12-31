@@ -4,7 +4,7 @@ Modification of the R package [Rtsne](https://cran.r-project.org/web/packages/Rt
 
 The purpose of this package is mainly educational, although the additional quantities returned may be useful for interpreting points in tSNE maps more generally.  See [here]() for more details.
 
-#Notes
+# Notes
 
 The calculation isn't particularly efficient in memory or time, so probably don't use this unless you need to.
 
