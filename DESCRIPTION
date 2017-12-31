@@ -1,0 +1,26 @@
+Package: MYRtsne
+Type: Package
+Title: T-Distributed Stochastic Neighbor Embedding using a Barnes-Hut
+        Implementation
+Version: 0.01
+Authors@R: c(
+    person("Matthew","Young",,"constantamateur@gmail.com",role=c("aut")),
+    person("Jesse", "Krijthe", ,"jkrijthe@gmail.com", role = c("cph"),comment = "Author of original Rtsne package"),
+    person("Laurens", "van der Maaten", role = c("cph"), comment = "Author of original C++ code")
+    )
+Description: Modifiation of Rtsne package (Version 0.13 <https://cran.r-project.org/web/packages/Rtsne/index.html>) to output internal quantities sigma, p_ij and q_ij.  Rtsne is an R wrapper around the fast T-distributed Stochastic Neighbor Embedding implementation by Van der Maaten  (see <https://github.com/lvdmaaten/bhtsne/> for more information on the original implementation).
+License: BSD_3_clause
+URL: https://github.com/constantAmateur/MYRtsne
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests: testthat
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+Packaged: 2017-04-14 15:51:58 UTC; jkrijthe
+Author: 
+  Matthew Young [aut] (Added extra outputs),
+  Jesse Krijthe [cph] (Author of original Rtsne package),
+  Laurens van der Maaten [cph] (Author of original C++ code)
+Maintainer: Matthew Young <constantamateur@gmail.com>
+Repository: CRAN
+Date/Publication: 2017-12-31 15:17:37 UTC
